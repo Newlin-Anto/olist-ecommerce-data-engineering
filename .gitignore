@@ -1,0 +1,27 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Keep downloaded source data and generated data out of GitHub
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/reports/*
+!/reports/.gitkeep
+/logs/*
+!/logs/.gitkeep
+
+# Local editor files
+.vscode/
+.idea/
+.DS_Store
