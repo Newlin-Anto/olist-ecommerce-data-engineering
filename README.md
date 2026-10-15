@@ -1,6 +1,6 @@
 # Olist E-Commerce Data Engineering Pipeline — Python, PySpark, SQL, AWS, Databricks
 
-A portfolio-ready Level 2 batch data engineering project built with the Brazilian Olist e-commerce public dataset. The main cloud pipeline uses **Amazon S3 for object storage, Databricks + PySpark for processing, Delta Lake for curated data, Unity Catalog for table governance, and Databricks SQL for analytics**.
+The main cloud pipeline uses **Amazon S3 for object storage, Databricks + PySpark for processing, Delta Lake for curated data, Unity Catalog for table governance, and Databricks SQL for analytics.
 
 > The ZIP does not contain the Olist data. Download it from [the Olist dataset page on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), follow its license, and keep the raw CSVs out of a public GitHub repository.
 
